@@ -1,26 +1,19 @@
-# OpenVapi - Free Vapi AI Alternative
+# OpenVapi - The Best Free Vapi AI Alternative
 
-The most beautiful, easy-to-use, and completely free open-source alternative to Vapi AI.
+**Goal**: Build the easiest, most beautiful, and completely free voice AI platform like Vapi.
 
-## Features
-- 🎨 Modern, clean UI just like Vapi
-- 🗣️ Real-time voice agents (Web + Phone)
-- 🧠 Local LLMs via Ollama (100% private & free)
-- 🔌 Phone integration (Telnyx, Twilio, Exotel)
-- 📋 No-code agent builder
-- 📊 Call analytics & history
-- 🧪 Live testing console
-- 🚀 One-click Docker deploy
+We are building:
+- Clean & modern UI (Vapi style)
+- Easy agent creation
+- Real-time voice (web + phone)
+- Local LLM support
+- One click deploy
 
-## Quick Start
+Status: In active development. UI foundation pushed.
 
+Clone & run:
 ```bash
 git clone https://github.com/ashokmotiji/openvapi.git
 cd openvapi
-cp .env.example .env
-docker compose up --build
+ docker compose up --build
 ```
-
-Open http://localhost:3000
-
-Made with ❤️ for people who want Vapi power without the bills.
