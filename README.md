@@ -1,24 +1,9 @@
-# OpenVapi - Free & Open Source Vapi AI Alternative
+# OpenVapi - Free Vapi Alternative
 
-**The most beautiful and easy-to-use self-hosted Vapi alternative.**
+**Now with beautiful, clean, and very easy-to-use UI just like Vapi AI**
 
-## ✨ Features
-- Clean, modern UI exactly like Vapi
-- Super easy to use for non-technical people
-- Real-time voice AI agents
-- Local or cloud LLM support
-- Phone calls + Web calls
+Switch to `vapi-ui` branch for latest UI improvements.
 
-## 🚀 Quick Start
-
-```bash
-git clone https://github.com/ashokmotiji/openvapi.git
-cd openvapi
 git checkout vapi-ui
-npm install
-npm run dev
-```
 
-Open http://localhost:3000
-
-**Completely free. No per-minute fees.**
+Very user-friendly interface designed for everyone.
