@@ -1,22 +1,40 @@
-# OpenVapi - Free & Open Source Vapi AI Alternative
+# OpenVapi - Free Vapi.ai Alternative
 
-A fully self-hosted, 100% free voice AI platform that looks and works like Vapi.ai
+**100% Free self-hosted voice AI platform** with beautiful UI like Vapi.
 
 ## Features
-- Beautiful Vapi-style Dashboard
-- Real-time voice agents (Web + Phone)
-- No-code agent builder
-- Local LLM (Ollama)
-- LiveKit for real-time voice
-- Telnyx integration for phone calls
-- Memory & Tools support
+- Vapi-style modern dashboard
+- Real-time voice agents (browser + phone calls)
+- Telnyx phone integration
+- LiveKit real-time audio
+- Local LLM via Ollama (Llama 3.1 etc.)
+- No-code agent builder (in progress)
 
-## Quick Start
+## How to Run
 
-1. Clone the repo
-2. Copy `.env.example` to `.env`
-3. Run `docker compose up --build`
+1. Install Docker Desktop
+2. Clone this repo:
+   ```bash
+git clone https://github.com/ashokmotiji/openvapi.git
+   cd openvapi
+   ```
+3. Copy environment file:
+   ```bash
+   cp .env.example .env
+   ```
+4. Edit `.env` and add your LiveKit and Telnyx credentials
+5. Run:
+   ```bash
+   docker compose up --build
+   ```
 
-## Cost
-- Web calls: **Free**
-- Phone calls: Only Telnyx per-minute cost (~₹0.5-1/min)
+Open http://localhost:3000
+
+## Get LiveKit Credentials
+Create free account at https://cloud.livekit.io and get API Key + Secret.
+
+## Get Telnyx
+Sign up at https://telnyx.com and buy a phone number.
+
+**Web calls = Completely Free**
+**Phone calls = Only Telnyx per-minute charges (~₹0.5 - 1/min)**
